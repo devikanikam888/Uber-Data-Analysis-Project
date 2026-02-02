@@ -228,56 +228,6 @@ Created **5 interactive dashboards** to visualize insights:
 
 ---
 
-## 📂 Project Structure
-```
-uber-ride-analysis/
-│
-├── data/
-│   └── uber_bookings.csv          # Raw dataset
-│
-├── sql/
-│   └── create_views.sql           # SQL view creation scripts
-│
-├── excel/
-│   └── data_cleaning.xlsx         # Cleaned & transformed data
-│
-├── powerbi/
-│   └── uber_dashboard.pbix        # Power BI dashboard file
-│
-└── README.md                      # Project documentation
-```
-
----
-
-## 🚀 How to Use This Repository
-
-### Prerequisites
-- MySQL 8.0+
-- Microsoft Excel 2016+
-- Power BI Desktop
-
-### Setup Instructions
-
-1. **Import Data to MySQL**
-```sql
-CREATE DATABASE Uber;
-USE Uber;
-
--- Import uber_bookings.csv to 'bookings' table
--- Run create_views.sql to set up all 10 views
-```
-
-2. **Open Excel File**
-- Review data cleaning steps in `data_cleaning.xlsx`
-- Explore pivot tables and calculated fields
-
-3. **Open Power BI Dashboard**
-- Open `uber_dashboard.pbix` in Power BI Desktop
-- Refresh data connections if needed
-- Explore interactive dashboards
-
----
-
 ## 📊 Sample Queries
 
 **Get cancellation breakdown:**
